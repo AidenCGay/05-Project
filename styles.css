@@ -1,0 +1,136 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header {
+     background-color: #216CED;
+}
+
+header span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #B2ED1D;
+}
+
+nav {
+    background-color: #B2ED1D;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav a {
+    padding: .7rem 1rem;
+    display: block;
+    text-decoration: none;
+    color: #991500;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+nav li.active a {
+    background-color: #991500;
+    color: #F2B705;
+}
+
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #27416E;
+}
+
+main h2 {
+    color: #991500;
+}
+
+main p {
+    margin: 0;
+    color: #000;
+}
+
+main ol {
+    padding: 1rem 30px;
+}
+
+/* Hey */
+
+main dl dt {
+    color: #910500;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #000;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 1rem;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #216CED;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 5px double #910500;
+}
+
+footer {
+    background-color: #EDE1DF;
+    text-align: left;
+    padding: 1rem 10px;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #216CED;
+    letter-spacing: 1px;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2cap;
+    row-gap: 30px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #910500;
+}
+
+div.racket {
+    flex: 10px;
+    float: right;
+    width: 40%;
+    height: 40%;
+}
